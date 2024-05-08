@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jan  5 12:46:38 2024
+# Process ID: 1396
+# Current directory: E:/NL/projects/homework/ex01/logic_gates_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10716 E:\NL\projects\homework\ex01\logic_gates_1\logic_gates_1.xpr
+# Log file: E:/NL/projects/homework/ex01/logic_gates_1/vivado.log
+# Journal file: E:/NL/projects/homework/ex01/logic_gates_1\vivado.jou
+#-----------------------------------------------------------
+sstart_guiopen_project E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+IINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/NL/Vivado/Vivado/2019.1/data/ip'.oopen_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 821.938 ; gain = 207.891uupdate_compile_order -fileset sources_1eexit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  5 12:48:27 2024...

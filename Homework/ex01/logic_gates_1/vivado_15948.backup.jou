@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Sep 28 15:31:27 2023
+# Process ID: 15948
+# Current directory: E:/NL/projects/homework/ex01/logic_gates_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12772 E:\NL\projects\homework\ex01\logic_gates_1\logic_gates_1.xpr
+# Log file: E:/NL/projects/homework/ex01/logic_gates_1/vivado.log
+# Journal file: E:/NL/projects/homework/ex01/logic_gates_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+place_ports iA J15
+place_ports iB L16
+place_ports oAnd H17
+place_ports oNot J13
+place_ports oOr K15
+set_property IOSTANDARD LVCMOS33 [get_ports [list iA]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list iB]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list oAnd]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list oNot]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list oOr]]
+file mkdir E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.srcs/constrs_1/new
+close [ open E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.srcs/constrs_1/new/logic_gates_1.xdc w ]
+add_files -fileset constrs_1 E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.srcs/constrs_1/new/logic_gates_1.xdc
+set_property target_constrs_file E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.srcs/constrs_1/new/logic_gates_1.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+close_design
+reset_run synth_1
+launch_runs impl_1 -jobs 10
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.runs/impl_1/logic_gates_1.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.runs/impl_1/logic_gates_1.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

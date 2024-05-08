@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../2048Diu.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../2048Diu.srcs/sources_1/new/BCDto8seg.v" \
+"../../../../2048Diu.srcs/sources_1/new/Divider.v" \
+"../../../../2048Diu.srcs/sources_1/new/MyMP3.v" \
+"../../../../2048Diu.srcs/sources_1/new/clkdiv.v" \
+"../../../../2048Diu.srcs/sources_1/new/game_tb.v" \
+"../../../../2048Diu.srcs/sources_1/new/gen.v" \
+"../../../../2048Diu.srcs/sources_1/new/move.v" \
+"../../../../2048Diu.srcs/sources_1/new/random.v" \
+"../../../../2048Diu.srcs/sources_1/new/score.v" \
+"../../../../2048Diu.srcs/sources_1/new/seg.v" \
+"../../../../2048Diu.srcs/sources_1/new/shake.v" \
+"../../../../2048Diu.srcs/sources_1/new/toBCD.v" \
+"../../../../2048Diu.srcs/sources_1/new/top_game.v" \
+"../../../../2048Diu.srcs/sources_1/new/vga.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

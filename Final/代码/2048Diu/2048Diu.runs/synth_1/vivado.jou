@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Jan 13 13:56:24 2024
+# Process ID: 21680
+# Current directory: E:/NL/projects/2048Diu/2048Diu.runs/synth_1
+# Command line: vivado.exe -log game.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source game.tcl
+# Log file: E:/NL/projects/2048Diu/2048Diu.runs/synth_1/game.vds
+# Journal file: E:/NL/projects/2048Diu/2048Diu.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source game.tcl -notrace

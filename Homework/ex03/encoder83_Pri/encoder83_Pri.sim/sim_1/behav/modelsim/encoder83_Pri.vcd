@@ -1,0 +1,119 @@
+$date
+	Fri Oct 20 00:07:15 2023
+$end
+$version
+	ModelSim Version 10.7
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_encoder83_Pri $end
+$var reg 8 ! iData [7:0] $end
+$var reg 1 " iEI $end
+$var wire 1 # oData [2] $end
+$var wire 1 $ oData [1] $end
+$var wire 1 % oData [0] $end
+$var wire 1 & oEO $end
+$var reg 1 ' clk $end
+
+$scope module uut $end
+$var wire 1 ( iData [7] $end
+$var wire 1 ) iData [6] $end
+$var wire 1 * iData [5] $end
+$var wire 1 + iData [4] $end
+$var wire 1 , iData [3] $end
+$var wire 1 - iData [2] $end
+$var wire 1 . iData [1] $end
+$var wire 1 / iData [0] $end
+$var wire 1 0 iEI $end
+$var reg 3 1 oData [2:0] $end
+$var reg 1 2 oEO $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+b111 1
+02
+0'
+1%
+1$
+1#
+0&
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+$end
+#5000
+1'
+#10000
+0'
+#15000
+1'
+#20000
+0'
+#25000
+1'
+#30000
+b1 !
+0'
+1/
+#35000
+1'
+#40000
+0'
+#45000
+1'
+#50000
+b11 !
+0'
+1.
+#55000
+1'
+#60000
+0'
+#65000
+1'
+#70000
+b11111110 !
+0'
+0/
+1-
+1,
+1+
+1*
+1)
+1(
+#75000
+1'
+#80000
+0'
+#85000
+1'
+#90000
+b11111111 !
+0'
+1/
+#95000
+1'
+#100000
+0'
+#105000
+1'
+#110000
+1"
+0'
+10
+12
+1&
+#115000
+1'

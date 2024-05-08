@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct  9 00:15:39 2023
+# Process ID: 10740
+# Current directory: E:/NL/projects/homework/ex02/selector41/selector41.runs/impl_1
+# Command line: vivado.exe -log selector41.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source selector41.tcl -notrace
+# Log file: E:/NL/projects/homework/ex02/selector41/selector41.runs/impl_1/selector41.vdi
+# Journal file: E:/NL/projects/homework/ex02/selector41/selector41.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source selector41.tcl -notrace

@@ -1,0 +1,12 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+iData = 0000, oData = 1000000
+iData = 0001, oData = 1111001
+iData = 0010, oData = 0100100
+iData = 0011, oData = 0110000
+iData = 0100, oData = 0011001
+iData = 0101, oData = 0010010
+iData = 0110, oData = 0000010
+iData = 0111, oData = 1111000
+iData = 1000, oData = 0000000
+$finish called at time : 100 ns : File "E:/NL/projects/homework/ex03/2/display7/display7.srcs/sources_1/new/display7_tb.v" Line 25

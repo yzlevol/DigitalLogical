@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+E:/NL/projects/homework/ex08/Regfiles.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+E:/NL/projects/homework/ex08/Regfiles.srcs/sources_1/new/Regfiles.v,1701092272,verilog,,E:/NL/projects/homework/ex08/Regfiles.srcs/sources_1/new/decoder.v,,Regfiles,,,,,,,,
+E:/NL/projects/homework/ex08/Regfiles.srcs/sources_1/new/Regfiles_tb.v,1701091365,verilog,,,,Regfiles_tb,,,,,,,,
+E:/NL/projects/homework/ex08/Regfiles.srcs/sources_1/new/decoder.v,1701092167,verilog,,E:/NL/projects/homework/ex08/Regfiles.srcs/sources_1/new/pcreg.v,,decoder,,,,,,,,
+E:/NL/projects/homework/ex08/Regfiles.srcs/sources_1/new/pcreg.v,1701092500,verilog,,E:/NL/projects/homework/ex08/Regfiles.srcs/sources_1/new/selector321.v,,pcreg,,,,,,,,
+E:/NL/projects/homework/ex08/Regfiles.srcs/sources_1/new/selector321.v,1701092464,verilog,,E:/NL/projects/homework/ex08/Regfiles.srcs/sources_1/new/Regfiles_tb.v,,selector321,,,,,,,,

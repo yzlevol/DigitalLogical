@@ -1,0 +1,7 @@
+Running: xsim.dir/Asynchronous_D_FF_tb_behav/xsimk.exe -simmode gui -wdb Asynchronous_D_FF_tb_behav.wdb -simrunnum 0 -socket 7745
+Design successfully loaded
+Design Loading Memory Usage: 10452 KB (Peak: 10452 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 13140 KB (Peak: 13140 KB)
+Simulation CPU Usage: 31 ms

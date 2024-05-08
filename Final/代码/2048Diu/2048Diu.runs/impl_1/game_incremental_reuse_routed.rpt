@@ -1,0 +1,105 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sat Jan 13 13:59:51 2024
+| Host         : Hyoungs running 64-bit major release  (build 9200)
+| Command      : report_incremental_reuse -file game_incremental_reuse_routed.rpt
+| Design       : game
+| Device       : xc7a100t
+| Design State : Fully Routed
+------------------------------------------------------------------------------------
+
+Incremental Implementation Information
+
+Table of Contents
+-----------------
+1. Reuse Summary
+2. Reference Checkpoint Information
+3. Comparison with Reference Run
+4. Options Comparison with Reference Run
+5. Non Reuse Information
+
+1. Reuse Summary
+----------------
+
++-------+----------------------+--------------------+--------------------+-------+
+|  Type | Matched % (of Total) | Reuse % (of Total) | Fixed % (of Total) | Total |
++-------+----------------------+--------------------+--------------------+-------+
+| Cells |                98.99 |              98.63 |               0.55 |  7559 |
+| Nets  |                85.36 |              96.18 |               0.00 |  6534 |
+| Pins  |                    - |              96.75 |                  - | 35756 |
+| Ports |               100.00 |             100.00 |             100.00 |    42 |
++-------+----------------------+--------------------+--------------------+-------+
+* Reused % can exceed matched % when unmatched nets take their routing from nets with similar placement and connectivity
+
+
+2. Reference Checkpoint Information
+-----------------------------------
+
++----------------+----------------------------------------------------------------------------+
+| DCP Location:  | E:/NL/projects/2048Diu/2048Diu.srcs/utils_1/imports/impl_1/game_routed.dcp |
++----------------+----------------------------------------------------------------------------+
+
+
++--------------------------------+----------------------------+
+|         DCP Information        |            Value           |
++--------------------------------+----------------------------+
+| Vivado Version                 |                     2019.1 |
+| DCP State                      |                 POST_ROUTE |
+| Recorded WNS                   |                        N/A |
+| Recorded WHS                   |                      0.000 |
+| Reference Speed File Version   | PRODUCTION 1.23 2018-06-13 |
+| Incremental Speed File Version | PRODUCTION 1.23 2018-06-13 |
++--------------------------------+----------------------------+
+* Recorded WNS/WHS timing numbers are estimated timing numbers. They may vary slightly from sign-off timing numbers.
+
+
+3. Comparison with Reference Run
+--------------------------------
+
++-----------------+---------------------------+---------------------------+---------------------------+
+|                 |          WNS(ns)          |  Runtime(elapsed)(hh:mm)  |    Runtime(cpu)(hh:mm)    |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|      Stage      |  Reference  | Incremental |  Reference  | Incremental |  Reference  | Incremental |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| synth_design    |             |             |       00:01 |       00:01 |       00:01 |       00:01 |
+| opt_design      |             |             |     < 1 min |             |     < 1 min |             |
+| read_checkpoint |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| place_design    |         N/A |         N/A |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| route_design    |             |             |       00:01 |       00:01 |       00:01 |       00:01 |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+
+4. Options Comparison with Reference Run
+----------------------------------------
+
++-----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                 |                                                                        Options                                                                        |
++-----------------+---------------------------------------------------------------------------+---------------------------------------------------------------------------+
+|      Stage      |                                 Reference                                 |                                Incremental                                |
++-----------------+---------------------------------------------------------------------------+---------------------------------------------------------------------------+
+| synth_design    | verilog_define default::[not_specified] top  game part  xc7a100tcsg324-1  | verilog_define default::[not_specified] top  game part  xc7a100tcsg324-1  |
+| opt_design      |                                                                   Default |                                                                   Not Run |
+| read_checkpoint |                                                                           |                                                                           |
+| place_design    |                                                                           |                                                                           |
+| route_design    |                                                                           |                                                                           |
++-----------------+---------------------------------------------------------------------------+---------------------------------------------------------------------------+
+* Options marked with * are not honored in incremental flow
+
+
+5. Non Reuse Information
+------------------------
+
++------------------------------------------------------+------+
+|                         Type                         |   %  |
++------------------------------------------------------+------+
+| Non-Reused Cells                                     | 1.36 |
+|   New                                                | 0.97 |
+|   Discarded illegal placement due to netlist changes | 0.35 |
+|   Discarded to improve timing                        | 0.02 |
+| Partially reused nets                                | 0.00 |
+| Non-Reused nets                                      | 3.81 |
+| Non-Reused Ports                                     | 0.00 |
++------------------------------------------------------+------+
+
+

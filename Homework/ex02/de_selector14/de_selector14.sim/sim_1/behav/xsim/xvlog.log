@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/NL/projects/homework/ex02/de_selector14/de_selector14.srcs/sources_1/new/de_selecctor14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module de_selector14
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/NL/projects/homework/ex02/de_selector14/de_selector14.srcs/sources_1/new/de_selector14_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench_de_selector14
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/NL/projects/homework/ex02/de_selector14/de_selector14.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

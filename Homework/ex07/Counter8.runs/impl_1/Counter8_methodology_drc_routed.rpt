@@ -1,0 +1,76 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Nov 19 18:43:29 2023
+| Host         : Hyoungs running 64-bit major release  (build 9200)
+| Command      : report_methodology -file Counter8_methodology_drc_routed.rpt -pb Counter8_methodology_drc_routed.pb -rpx Counter8_methodology_drc_routed.rpx
+| Design       : Counter8
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 8
++-----------+------------------+------------------------------+------------+
+| Rule      | Severity         | Description                  | Violations |
++-----------+------------------+------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell  | 7          |
+| LUTAR-1   | Warning          | LUT drives async reset alert | 1          |
++-----------+------------------+------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin jk0/Q1_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin jk0/Q1_reg_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin jk0/Q2_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin jk1/Q1_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin jk1/Q2_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin jk2/Q1_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin jk2/Q2_reg/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell jk0/oDisplay_OBUF[2]_inst_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) jk2/Q1_reg/CLR, jk2/Q2_reg/PRE, jk1/Q1_reg/CLR, jk1/Q2_reg/PRE, jk0/Q1_reg/CLR, jk0/Q1_reg_lopt_replica/CLR, jk0/Q2_reg/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+

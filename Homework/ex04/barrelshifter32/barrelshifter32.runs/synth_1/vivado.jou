@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Oct 26 17:36:31 2023
+# Process ID: 20132
+# Current directory: E:/NL/projects/homework/ex04/barrelshifter32/barrelshifter32.runs/synth_1
+# Command line: vivado.exe -log barrelshifter32.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source barrelshifter32.tcl
+# Log file: E:/NL/projects/homework/ex04/barrelshifter32/barrelshifter32.runs/synth_1/barrelshifter32.vds
+# Journal file: E:/NL/projects/homework/ex04/barrelshifter32/barrelshifter32.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source barrelshifter32.tcl -notrace

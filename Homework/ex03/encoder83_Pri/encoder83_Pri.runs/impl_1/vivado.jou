@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Oct 21 23:26:05 2023
+# Process ID: 28552
+# Current directory: E:/NL/projects/homework/ex03/encoder83_Pri/encoder83_Pri.runs/impl_1
+# Command line: vivado.exe -log encoder83_Pri.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source encoder83_Pri.tcl -notrace
+# Log file: E:/NL/projects/homework/ex03/encoder83_Pri/encoder83_Pri.runs/impl_1/encoder83_Pri.vdi
+# Journal file: E:/NL/projects/homework/ex03/encoder83_Pri/encoder83_Pri.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source encoder83_Pri.tcl -notrace

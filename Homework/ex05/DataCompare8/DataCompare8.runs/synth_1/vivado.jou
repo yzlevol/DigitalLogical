@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov  2 14:56:20 2023
+# Process ID: 21876
+# Current directory: E:/NL/projects/homework/ex05/DataCompare8/DataCompare8.runs/synth_1
+# Command line: vivado.exe -log DataCompare8.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DataCompare8.tcl
+# Log file: E:/NL/projects/homework/ex05/DataCompare8/DataCompare8.runs/synth_1/DataCompare8.vds
+# Journal file: E:/NL/projects/homework/ex05/DataCompare8/DataCompare8.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source DataCompare8.tcl -notrace

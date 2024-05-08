@@ -1,0 +1,564 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/NL/projects/2048Diu/2048Diu.sim/sim_1/behav/modelsim
+vasym_bwe_bb
+Z1 !s10a 1558741137
+Z2 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z3 !s110 1705073251
+!i10b 1
+!s100 `@m33APeZ4kVYeRgJlYgm0
+IJf:i^6k__9nH7NNUEFaRa2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 xpm_memory_sv_unit
+S1
+R0
+Z6 w1558741137
+Z7 8E:/NL/Vivado/Vivado/2019.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Z8 FE:/NL/Vivado/Vivado/2019.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+L0 7959
+Z9 OL;L;10.7;67
+r1
+!s85 0
+31
+Z10 !s108 1705073250.000000
+Z11 !s107 E:/NL/Vivado/Vivado/2019.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|
+Z12 !s90 -64|-incr|-sv|-work|xil_defaultlib|E:/NL/Vivado/Vivado/2019.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|
+!i113 0
+Z13 o-sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 tCvgOpt 0
+vBCDseg
+!s10a 1704964962
+Z15 !s110 1705073252
+!i10b 1
+!s100 nQ2=Z8Si1B5JQB[8N:8_S3
+Ilk4ABN7TW0]zKO]iACSEW3
+R4
+R0
+w1704964962
+8../../../../2048Diu.srcs/sources_1/new/toBCD.v
+F../../../../2048Diu.srcs/sources_1/new/toBCD.v
+L0 8
+R9
+r1
+!s85 0
+31
+Z16 !s108 1705073252.000000
+Z17 !s107 ../../../../2048Diu.srcs/sources_1/new/game_tb.v|../../../../2048Diu.srcs/sources_1/new/vga.v|../../../../2048Diu.srcs/sources_1/new/top_game.v|../../../../2048Diu.srcs/sources_1/new/toBCD.v|../../../../2048Diu.srcs/sources_1/new/shake.v|../../../../2048Diu.srcs/sources_1/new/seg.v|../../../../2048Diu.srcs/sources_1/new/score.v|../../../../2048Diu.srcs/sources_1/new/random.v|../../../../2048Diu.srcs/sources_1/new/move.v|../../../../2048Diu.srcs/sources_1/new/gen.v|../../../../2048Diu.srcs/sources_1/new/clkdiv.v|../../../../2048Diu.srcs/sources_1/new/MyMP3.v|../../../../2048Diu.srcs/sources_1/new/Divider.v|../../../../2048Diu.srcs/sources_1/new/BCDto8seg.v|../../../../2048Diu.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|
+Z18 !s90 -64|-incr|-work|xil_defaultlib|../../../../2048Diu.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|../../../../2048Diu.srcs/sources_1/new/BCDto8seg.v|../../../../2048Diu.srcs/sources_1/new/Divider.v|../../../../2048Diu.srcs/sources_1/new/MyMP3.v|../../../../2048Diu.srcs/sources_1/new/clkdiv.v|../../../../2048Diu.srcs/sources_1/new/gen.v|../../../../2048Diu.srcs/sources_1/new/move.v|../../../../2048Diu.srcs/sources_1/new/random.v|../../../../2048Diu.srcs/sources_1/new/score.v|../../../../2048Diu.srcs/sources_1/new/seg.v|../../../../2048Diu.srcs/sources_1/new/shake.v|../../../../2048Diu.srcs/sources_1/new/toBCD.v|../../../../2048Diu.srcs/sources_1/new/top_game.v|../../../../2048Diu.srcs/sources_1/new/vga.v|../../../../2048Diu.srcs/sources_1/new/game_tb.v|
+!i113 0
+Z19 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R14
+n@b@c@dseg
+vbcdto8segment_dataflow
+!s10a 1704892942
+R15
+!i10b 1
+!s100 ObH[1B1P:7:1d6i:XKA1N0
+Ikeo;MnjP@n@TgB7;W547D0
+R4
+R0
+w1704892942
+8../../../../2048Diu.srcs/sources_1/new/BCDto8seg.v
+F../../../../2048Diu.srcs/sources_1/new/BCDto8seg.v
+L0 3
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+vblk_mem_gen_0
+!s10a 1704953812
+R15
+!i10b 1
+!s100 <Vd8J<V6^C3j]iP6OBgnW3
+I0]gngGO2ZoW:S=9ToF5263
+R4
+R0
+w1704953812
+8../../../../2048Diu.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
+F../../../../2048Diu.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
+L0 56
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+vclkdiv
+!s10a 1704964509
+R15
+!i10b 1
+!s100 R>kn0PclC@;jg_cd8?Tzc1
+IcacN[jkHOEeo6C<VaV1On2
+R4
+R0
+w1704964509
+8../../../../2048Diu.srcs/sources_1/new/clkdiv.v
+F../../../../2048Diu.srcs/sources_1/new/clkdiv.v
+L0 7
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+vDivider
+!s10a 1704873535
+R15
+!i10b 1
+!s100 :]7kkWMb1P6Y`h^=eUQlU2
+I@iG<SgcSJH:[7NgdLU1k;2
+R4
+R0
+w1704873535
+8../../../../2048Diu.srcs/sources_1/new/Divider.v
+F../../../../2048Diu.srcs/sources_1/new/Divider.v
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+n@divider
+vgame
+!s10a 1705070243
+R15
+!i10b 1
+!s100 Q3lSXG[Cz^baiW5WbAlfN3
+I]cF5VmV1I`k62kU8C<^843
+R4
+R0
+w1705070243
+8../../../../2048Diu.srcs/sources_1/new/top_game.v
+F../../../../2048Diu.srcs/sources_1/new/top_game.v
+L0 21
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+vgame_tb
+!s10a 1705073050
+R15
+!i10b 1
+!s100 ;DUH:X?KzVF^DOC1z`c>21
+IHdf6O_AOD3fkBb7z577PP2
+R4
+R0
+w1705073050
+8../../../../2048Diu.srcs/sources_1/new/game_tb.v
+F../../../../2048Diu.srcs/sources_1/new/game_tb.v
+L0 3
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+vgen
+!s10a 1704964648
+R15
+!i10b 1
+!s100 :W=Lj;DVn?C>[T7EA>IO83
+IC<_mH_;_<484hU6Ig1njB0
+R4
+R0
+w1704964648
+8../../../../2048Diu.srcs/sources_1/new/gen.v
+F../../../../2048Diu.srcs/sources_1/new/gen.v
+L0 6
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+vglbl
+!s110 1705139813
+!i10b 1
+!s100 7cd<?T0KPANS9PBoRj:BY2
+INdU5f[;Bb^Y=SUnL>A9=o3
+R4
+R0
+w1558713910
+8glbl.v
+Fglbl.v
+L0 6
+R9
+r1
+!s85 0
+31
+!s108 1705139812.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R19
+R14
+vmove
+!s10a 1704964623
+R15
+!i10b 1
+!s100 `lz9D<CWXiCR0WmFLP_CC1
+IjOc>^bDFAd5>@D1z5^7TX1
+R4
+R0
+w1704964623
+8../../../../2048Diu.srcs/sources_1/new/move.v
+F../../../../2048Diu.srcs/sources_1/new/move.v
+L0 6
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+vMyMP3
+!s10a 1704974723
+R15
+!i10b 1
+!s100 C;DBc943=KYEz8kF:1T653
+ITaCmS78:IJW;`3`4O9f_Z2
+R4
+R0
+w1704974723
+8../../../../2048Diu.srcs/sources_1/new/MyMP3.v
+F../../../../2048Diu.srcs/sources_1/new/MyMP3.v
+L0 8
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+n@my@m@p3
+vrandom
+!s10a 1704964779
+R15
+!i10b 1
+!s100 79[EHOTXZzQZH;z^J<4ba2
+I8boe:g1El`M4Po:dH<Jf93
+R4
+R0
+w1704964779
+8../../../../2048Diu.srcs/sources_1/new/random.v
+F../../../../2048Diu.srcs/sources_1/new/random.v
+L0 6
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+vscore
+!s10a 1704964998
+R15
+!i10b 1
+!s100 ZZUAEBERKIA1CD]0FDl_X1
+IaliWEY>HeBjDAO7=amo<_3
+R4
+R0
+w1704964998
+8../../../../2048Diu.srcs/sources_1/new/score.v
+F../../../../2048Diu.srcs/sources_1/new/score.v
+L0 8
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+vseg
+!s10a 1704964764
+R15
+!i10b 1
+!s100 9^2R3kL`J6<]NFQ`C<VEE2
+Idag]YbXF>2I6c:Q>7XZGF2
+R4
+R0
+w1704964764
+8../../../../2048Diu.srcs/sources_1/new/seg.v
+F../../../../2048Diu.srcs/sources_1/new/seg.v
+L0 6
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+vshake
+!s10a 1704964610
+R15
+!i10b 1
+!s100 9W@04mN?jlTP=Qhe>Le7;0
+I2752TY^4YDM:zFzgoPo7L1
+R4
+R0
+w1704964610
+8../../../../2048Diu.srcs/sources_1/new/shake.v
+F../../../../2048Diu.srcs/sources_1/new/shake.v
+L0 7
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+vvga
+!s10a 1704976823
+R15
+!i10b 1
+!s100 7=dQ5O>lT?L21e<Pd_]4<1
+IEc_TlcV]Q7OfJ2bgVCzCY2
+R4
+R0
+w1704976823
+8../../../../2048Diu.srcs/sources_1/new/vga.v
+F../../../../2048Diu.srcs/sources_1/new/vga.v
+L0 6
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R14
+vxpm_memory_base
+R1
+R2
+R3
+!i10b 1
+!s100 Jo0ROZzPK1m1GT?IPaHW00
+IahSg@S89BDzKmmI@m40Gd0
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 57
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+vxpm_memory_dpdistram
+R1
+R2
+R3
+!i10b 1
+!s100 A>;zA;34IAj^n>L<0=];P0
+I:M5C5jl8NR1?VOP@ezSUj0
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 8018
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+vxpm_memory_dprom
+R1
+R2
+R3
+!i10b 1
+!s100 5S9h]_Uj@dlYfX>cYh6853
+Ig<em19]Vj;nkBKJ=I^:Ji3
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 8158
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+vxpm_memory_sdpram
+R1
+R2
+R3
+!i10b 1
+!s100 EKi9Td;Lofc^h`WaOhhhj0
+I[SHgi^H9D4AS=a3AEL1BR1
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 8320
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+vxpm_memory_spram
+R1
+R2
+R3
+!i10b 1
+!s100 J[^CaekCd_XbEjVoY2N;;2
+I6e?gmabSMh6OUfnL4T4Yg0
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 8483
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+vxpm_memory_sprom
+R1
+R2
+R3
+!i10b 1
+!s100 b1ASnjX9RV`XYLI2=S0KS2
+Ic=32FIf_^eTL9bPO3Sd=L3
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 8635
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+vxpm_memory_tdpram
+R1
+R2
+R3
+!i10b 1
+!s100 jBS]SWQ3KIgjEAXjRnfLY0
+I^STE3DE:NeM:i_5[dEWHj3
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 8777
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14

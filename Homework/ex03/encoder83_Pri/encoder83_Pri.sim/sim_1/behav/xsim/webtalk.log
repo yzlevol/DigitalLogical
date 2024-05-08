@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Oct 21 21:55:46 2023
+# Process ID: 5612
+# Current directory: E:/NL/projects/homework/ex03/encoder83_Pri/encoder83_Pri.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/NL/projects/homework/ex03/encoder83_Pri/encoder83_Pri.sim/sim_1/behav/xsim/xsim.dir/encoder83_Pri_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/NL/projects/homework/ex03/encoder83_Pri/encoder83_Pri.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/NL/projects/homework/ex03/encoder83_Pri/encoder83_Pri.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/NL/projects/homework/ex03/encoder83_Pri/encoder83_Pri.sim/sim_1/behav/xsim/xsim.dir/encoder83_Pri_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 21 21:55:47 2023...

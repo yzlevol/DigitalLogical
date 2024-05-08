@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jan 11 14:03:56 2024
+# Process ID: 3736
+# Current directory: E:/NL/projects/2048Diu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21792 E:\NL\projects\2048Diu\2048Diu.xpr
+# Log file: E:/NL/projects/2048Diu/vivado.log
+# Journal file: E:/NL/projects/2048Diu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/NL/projects/2048Diu/2048Diu.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_project
+open_project E:/NL/projects/Diu2048/Diu2048.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+reset_run blk_mem_gen_0_synth_1

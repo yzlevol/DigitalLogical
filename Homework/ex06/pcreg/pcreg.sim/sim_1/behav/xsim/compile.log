@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/NL/projects/homework/ex06/pcreg.srcs/sources_1/new/pcreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/NL/projects/homework/ex06/pcreg.srcs/sources_1/new/pcreg_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcreg_tb

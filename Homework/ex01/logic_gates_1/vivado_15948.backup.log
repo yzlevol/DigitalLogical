@@ -1,0 +1,94 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Sep 28 15:31:27 2023
+# Process ID: 15948
+# Current directory: E:/NL/projects/homework/ex01/logic_gates_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12772 E:\NL\projects\homework\ex01\logic_gates_1\logic_gates_1.xpr
+# Log file: E:/NL/projects/homework/ex01/logic_gates_1/vivado.log
+# Journal file: E:/NL/projects/homework/ex01/logic_gates_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/NL/Vivado/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs synth_1 -jobs 10
+[Thu Sep 28 15:32:51 2023] Launched synth_1...
+Run output will be captured here: E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1154.098 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1346.496 ; gain = 480.535
+place_ports iA J15
+place_ports iB L16
+place_ports oAnd H17
+place_ports oNot J13
+place_ports oOr K15
+set_property IOSTANDARD LVCMOS33 [get_ports [list iA]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list iB]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list oAnd]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list oNot]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list oOr]]
+file mkdir E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.srcs/constrs_1/new
+close [ open E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.srcs/constrs_1/new/logic_gates_1.xdc w ]
+add_files -fileset constrs_1 E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.srcs/constrs_1/new/logic_gates_1.xdc
+set_property target_constrs_file E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.srcs/constrs_1/new/logic_gates_1.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+[Thu Sep 28 15:34:29 2023] Launched synth_1...
+Run output will be captured here: E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.runs/synth_1/runme.log
+close_design
+reset_run synth_1
+launch_runs impl_1 -jobs 10
+[Thu Sep 28 15:36:11 2023] Launched synth_1...
+Run output will be captured here: E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.runs/synth_1/runme.log
+[Thu Sep 28 15:36:11 2023] Launched impl_1...
+Run output will be captured here: E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Sep 28 15:37:23 2023] Launched impl_1...
+Run output will be captured here: E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B7F6F2A
+set_property PROGRAM.FILE {E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.runs/impl_1/logic_gates_1.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {E:/NL/projects/homework/ex01/logic_gates_1/logic_gates_1.runs/impl_1/logic_gates_1.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B7F6F2A
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 28 16:42:28 2023...

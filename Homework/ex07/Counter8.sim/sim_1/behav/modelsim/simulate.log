@@ -1,0 +1,86 @@
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {Counter8_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -lib xil_defaultlib xil_defaultlib.Counter8_tb xil_defaultlib.glbl 
+# Start time: 22:27:13 on Nov 18,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Counter8_tb(fast)
+# Loading work.Counter8(fast)
+# Loading work.Divider(fast)
+# Loading work.JK_FF(fast)
+# Loading work.display7(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) ../../../../Counter8.srcs/sources_1/new/Counter8.v(12): [PCDPC] - Port size (1) does not match connection size (32) for port 'J'. The port definition is at: ../../../../Counter8.srcs/sources_1/imports/homework/ex06/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /Counter8_tb/uut/jk1 File: ../../../../Counter8.srcs/sources_1/imports/homework/ex06/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.v
+# ** Warning: (vsim-3015) ../../../../Counter8.srcs/sources_1/new/Counter8.v(12): [PCDPC] - Port size (1) does not match connection size (32) for port 'K'. The port definition is at: ../../../../Counter8.srcs/sources_1/imports/homework/ex06/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Counter8_tb/uut/jk1 File: ../../../../Counter8.srcs/sources_1/imports/homework/ex06/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.v
+# ** Warning: (vsim-3015) ../../../../Counter8.srcs/sources_1/new/Counter8.v(20): [PCDPC] - Port size (4) does not match connection size (3) for port 'iData'. The port definition is at: ../../../../Counter8.srcs/sources_1/imports/homework/ex03/2/display7/display7.srcs/sources_1/new/display7.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Counter8_tb/uut/d7 File: ../../../../Counter8.srcs/sources_1/imports/homework/ex03/2/display7/display7.srcs/sources_1/new/display7.v
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Time=10000, oQ=000, oDisplay=xxxxxxx
+# Time=30000, oQ=000, oDisplay=xxxxxxx
+# Time=50000, oQ=000, oDisplay=xxxxxxx
+# Time=70000, oQ=000, oDisplay=xxxxxxx
+# Time=90000, oQ=000, oDisplay=xxxxxxx
+# Time=110000, oQ=000, oDisplay=xxxxxxx
+# Time=130000, oQ=000, oDisplay=xxxxxxx
+# Time=150000, oQ=001, oDisplay=xx1xxxx
+# Time=170000, oQ=001, oDisplay=xx1xxxx
+# Time=190000, oQ=001, oDisplay=xx1xxxx
+# Time=210000, oQ=001, oDisplay=xx1xxxx
+# Time=230000, oQ=001, oDisplay=xx1xxxx
+# Time=250000, oQ=001, oDisplay=xx1xxxx
+# Time=270000, oQ=001, oDisplay=xx1xxxx
+# Time=290000, oQ=001, oDisplay=xx1xxxx
+# Time=310000, oQ=001, oDisplay=xx1xxxx
+# Time=330000, oQ=001, oDisplay=xx1xxxx
+# Time=350000, oQ=010, oDisplay=x1xx1xx
+# Time=370000, oQ=010, oDisplay=x1xx1xx
+# Time=390000, oQ=010, oDisplay=x1xx1xx
+# Time=410000, oQ=010, oDisplay=x1xx1xx
+# Time=430000, oQ=010, oDisplay=x1xx1xx
+# Time=450000, oQ=010, oDisplay=x1xx1xx
+# Time=470000, oQ=010, oDisplay=x1xx1xx
+# Time=490000, oQ=010, oDisplay=x1xx1xx
+# Time=510000, oQ=010, oDisplay=x1xx1xx
+# Time=530000, oQ=010, oDisplay=x1xx1xx
+# Time=550000, oQ=011, oDisplay=x11xxxx
+# Time=570000, oQ=011, oDisplay=x11xxxx
+# Time=590000, oQ=011, oDisplay=x11xxxx
+# Time=610000, oQ=011, oDisplay=x11xxxx
+# Time=630000, oQ=011, oDisplay=x11xxxx
+# Time=650000, oQ=011, oDisplay=x11xxxx
+# Time=670000, oQ=011, oDisplay=x11xxxx
+# Time=690000, oQ=011, oDisplay=x11xxxx
+# Time=710000, oQ=011, oDisplay=x11xxxx
+# Time=730000, oQ=011, oDisplay=x11xxxx
+# Time=750000, oQ=100, oDisplay=xx11xx1
+# Time=770000, oQ=100, oDisplay=xx11xx1
+# Time=790000, oQ=100, oDisplay=xx11xx1
+# Time=810000, oQ=100, oDisplay=xx11xx1
+# Time=830000, oQ=100, oDisplay=xx11xx1
+# Time=850000, oQ=100, oDisplay=xx11xx1
+# Time=870000, oQ=100, oDisplay=xx11xx1
+# Time=890000, oQ=100, oDisplay=xx11xx1
+# Time=910000, oQ=100, oDisplay=xx11xx1
+# Time=930000, oQ=100, oDisplay=xx11xx1
+# Time=950000, oQ=101, oDisplay=xx1xx1x
+# Time=970000, oQ=101, oDisplay=xx1xx1x
+# Time=990000, oQ=101, oDisplay=xx1xx1x
+# End time: 22:27:35 on Nov 18,2023, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 3

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/NL/projects/homework/ex05/FA/FA.srcs/sources_1/new/FA_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/NL/projects/homework/ex05/FA/FA.srcs/sources_1/new/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA

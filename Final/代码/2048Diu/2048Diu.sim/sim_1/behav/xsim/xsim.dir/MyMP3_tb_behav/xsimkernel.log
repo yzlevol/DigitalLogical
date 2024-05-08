@@ -1,0 +1,7 @@
+Running: xsim.dir/MyMP3_tb_behav/xsimk.exe -simmode gui -wdb MyMP3_tb_behav.wdb -simrunnum 0 -socket 7684
+Design successfully loaded
+Design Loading Memory Usage: 12852 KB (Peak: 12852 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 13816 KB (Peak: 13816 KB)
+Simulation CPU Usage: 77 ms

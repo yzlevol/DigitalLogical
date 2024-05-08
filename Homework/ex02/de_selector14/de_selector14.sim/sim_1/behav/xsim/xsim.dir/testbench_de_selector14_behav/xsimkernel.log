@@ -1,0 +1,7 @@
+Running: xsim.dir/testbench_de_selector14_behav/xsimk.exe -simmode gui -wdb testbench_de_selector14_behav.wdb -simrunnum 0 -socket 13015
+Design successfully loaded
+Design Loading Memory Usage: 10460 KB (Peak: 10460 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 13048 KB (Peak: 13048 KB)
+Simulation CPU Usage: 0 ms

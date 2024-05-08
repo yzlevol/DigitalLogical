@@ -1,0 +1,155 @@
+$date
+   Fri Oct 20 18:46:36 2023
+$end
+$version
+  2019.1
+$end
+$timescale
+  1ps
+$end
+$scope module encoder83_Pri_tb $end
+$var reg 8 ! iData [7:0] $end
+$var reg 1 " iEI $end
+$var wire 3 # oData [2:0] $end
+$var wire 1 $ oEO $end
+$var reg 1 % clk $end
+$scope module my_encoder $end
+$var wire 8 & iData [7:0] $end
+$var wire 1 ' iEI $end
+$var wire 3 # oData [2:0] $end
+$var wire 1 $ oEO $end
+$var wire 8 ( invertedData [7:0] $end
+$var wire 3 ) priorityEncodedData [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10000000 !
+1"
+b110 #
+1$
+0%
+b10000000 &
+1'
+b1111111 (
+b1 )
+$end
+#5000
+1%
+#10000
+b100 !
+b111 #
+1$
+0%
+b100 &
+b11111011 (
+b0 )
+#15000
+1%
+#20000
+b0 !
+0"
+0$
+0%
+b0 &
+0'
+b11111111 (
+b0 )
+#25000
+1%
+#30000
+b11001010 !
+1"
+b101 #
+1$
+0%
+b11001010 &
+1'
+b110101 (
+b10 )
+#35000
+1%
+#40000
+b0 !
+b111 #
+0$
+0%
+b0 &
+b11111111 (
+b0 )
+#45000
+1%
+#50000
+b1 !
+1$
+0%
+b1 &
+b11111110 (
+b0 )
+#55000
+1%
+#60000
+b11001100 !
+0"
+0$
+0%
+b11001100 &
+0'
+b110011 (
+b0 )
+#65000
+1%
+#70000
+b11111111 !
+1"
+b111 #
+1$
+0%
+b11111111 &
+1'
+b0 (
+b0 )
+#75000
+1%
+#80000
+b111100 !
+1$
+0%
+b111100 &
+b11000011 (
+b0 )
+#85000
+1%
+#90000
+b11110000 !
+0"
+0$
+0%
+b11110000 &
+0'
+b1111 (
+b0 )
+#95000
+1%
+#100000
+b1 !
+1"
+b111 #
+1$
+0%
+b1 &
+1'
+b11111110 (
+b0 )
+#105000
+1%
+#110000
+b1011010 !
+1$
+0%
+b1011010 &
+b10100101 (
+b0 )
+#115000
+1%

@@ -1,0 +1,153 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/NL/projects/homework/ex07/Counter8.sim/sim_1/behav/modelsim
+T_opt
+!s110 1700317633
+VUX:;C_SXCMPalEXG38M2o3
+04 11 4 work Counter8_tb fast 0
+04 4 4 work glbl fast 0
+=1-a8b13b795dc8-6558c9c1-263-3f48
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+vCounter8
+!s10a 1700317209
+Z2 !s110 1700317543
+!i10b 1
+!s100 J;15N7cG^zENVMQ26?WF:3
+IRHZSQ6mZ4heRQicZ[^]gG1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1700317209
+8../../../../Counter8.srcs/sources_1/new/Counter8.v
+F../../../../Counter8.srcs/sources_1/new/Counter8.v
+L0 1
+Z4 OL;L;10.7;67
+r1
+!s85 0
+31
+Z5 !s108 1700317543.000000
+Z6 !s107 ../../../../Counter8.srcs/sources_1/new/Counter8_tb.v|../../../../Counter8.srcs/sources_1/imports/homework/ex03/2/display7/display7.srcs/sources_1/new/display7.v|../../../../Counter8.srcs/sources_1/imports/homework/ex06/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.v|../../../../Counter8.srcs/sources_1/imports/new/Divider.v|../../../../Counter8.srcs/sources_1/new/Counter8.v|
+Z7 !s90 -64|-incr|-work|xil_defaultlib|../../../../Counter8.srcs/sources_1/new/Counter8.v|../../../../Counter8.srcs/sources_1/imports/new/Divider.v|../../../../Counter8.srcs/sources_1/imports/homework/ex06/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.v|../../../../Counter8.srcs/sources_1/imports/homework/ex03/2/display7/display7.srcs/sources_1/new/display7.v|../../../../Counter8.srcs/sources_1/new/Counter8_tb.v|
+!i113 0
+Z8 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@counter8
+vCounter8_tb
+Z9 !s110 1700317619
+!i10b 1
+!s100 B?1P<9oY3J5hHUe>VH7jZ2
+IVV7SQz[ce8gJkN6BYT^@03
+R3
+R0
+w1700317604
+8../../../../Counter8.srcs/sources_1/new/Counter8_tb.v
+F../../../../Counter8.srcs/sources_1/new/Counter8_tb.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1700317619.000000
+R6
+R7
+!i113 0
+R8
+R1
+n@counter8_tb
+vdisplay7
+!s10a 1700236836
+R2
+!i10b 1
+!s100 n4Tk8<3Z6X9nWmJikW7?z2
+IzfPkHbY][O]leY`KQ[QS:1
+R3
+R0
+w1700236836
+8../../../../Counter8.srcs/sources_1/imports/homework/ex03/2/display7/display7.srcs/sources_1/new/display7.v
+F../../../../Counter8.srcs/sources_1/imports/homework/ex03/2/display7/display7.srcs/sources_1/new/display7.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vDivider
+R9
+!i10b 1
+!s100 f`W]RNa8JZl2GRb95_VMA1
+I]]<Nb6j_l_OQN98JJJFiE2
+R3
+R0
+w1700317613
+8../../../../Counter8.srcs/sources_1/imports/new/Divider.v
+F../../../../Counter8.srcs/sources_1/imports/new/Divider.v
+L0 3
+R4
+r1
+!s85 0
+31
+R10
+R6
+R7
+!i113 0
+R8
+R1
+n@divider
+vglbl
+R9
+!i10b 1
+!s100 7cd<?T0KPANS9PBoRj:BY2
+INdU5f[;Bb^Y=SUnL>A9=o3
+R3
+R0
+w1558713910
+8glbl.v
+Fglbl.v
+L0 6
+R4
+r1
+!s85 0
+31
+R10
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R8
+R1
+vJK_FF
+!s10a 1699515227
+R2
+!i10b 1
+!s100 OYgzoMO?YnLWZdbj2=5El1
+I[JDU?h8FhkBnE;7h^1AeX2
+R3
+R0
+w1699515227
+8../../../../Counter8.srcs/sources_1/imports/homework/ex06/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.v
+F../../../../Counter8.srcs/sources_1/imports/homework/ex06/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@j@k_@f@f

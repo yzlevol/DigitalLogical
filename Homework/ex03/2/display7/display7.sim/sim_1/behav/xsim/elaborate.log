@@ -1,0 +1,14 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/NL/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 7ba6402fb56f4f3883a61f130f641bdc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot display7_tb_behav xil_defaultlib.display7_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/NL/projects/homework/ex03/2/display7/display7.srcs/sources_1/new/display7.v" Line 1. Module display7 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.display7
+Compiling module xil_defaultlib.display7_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot display7_tb_behav

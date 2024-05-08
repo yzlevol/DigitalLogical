@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov  7 14:38:00 2023
+# Process ID: 10328
+# Current directory: E:/NL/projects/homework/ex05/FA/FA.runs/impl_1
+# Command line: vivado.exe -log FA.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FA.tcl -notrace
+# Log file: E:/NL/projects/homework/ex05/FA/FA.runs/impl_1/FA.vdi
+# Journal file: E:/NL/projects/homework/ex05/FA/FA.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source FA.tcl -notrace

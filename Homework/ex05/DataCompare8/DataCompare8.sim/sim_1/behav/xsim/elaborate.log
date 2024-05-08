@@ -1,0 +1,7 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/NL/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto bda1b9c6000e4580a5923e9c19755998 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot DataCompare8_tb_behav xil_defaultlib.DataCompare8_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <DataCompare4> not found while processing module instance <low> [E:/NL/projects/homework/ex05/DataCompare8/DataCompare8.srcs/sources_1/new/DataCompare8.v:9]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Sep 24 10:44:19 2023
+# Process ID: 14452
+# Current directory: E:/NL/projects/homework/three_state_gates/three_state_gates.runs/impl_1
+# Command line: vivado.exe -log three_state_gates.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source three_state_gates.tcl -notrace
+# Log file: E:/NL/projects/homework/three_state_gates/three_state_gates.runs/impl_1/three_state_gates.vdi
+# Journal file: E:/NL/projects/homework/three_state_gates/three_state_gates.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source three_state_gates.tcl -notrace

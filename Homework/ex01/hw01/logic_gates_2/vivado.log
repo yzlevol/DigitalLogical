@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Sep 28 13:19:05 2023
+# Process ID: 4452
+# Current directory: E:/NL/projects/homework/logic_gates_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5808 E:\NL\projects\homework\logic_gates_2\logic_gates_2.xpr
+# Log file: E:/NL/projects/homework/logic_gates_2/vivado.log
+# Journal file: E:/NL/projects/homework/logic_gates_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/NL/projects/homework/logic_gates_2/logic_gates_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/NL/Vivado/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 10
+[Thu Sep 28 13:20:23 2023] Launched synth_1...
+Run output will be captured here: E:/NL/projects/homework/logic_gates_2/logic_gates_2.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1157.266 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1336.410 ; gain = 457.301
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 28 13:22:03 2023...

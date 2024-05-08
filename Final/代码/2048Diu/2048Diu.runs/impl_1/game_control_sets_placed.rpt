@@ -1,0 +1,119 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sat Jan 13 13:59:08 2024
+| Host         : Hyoungs running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file game_control_sets_placed.rpt
+| Design       : game
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    41 |
+|    Minimum number of control sets                        |    41 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   154 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    41 |
+| >= 0 to < 4        |    14 |
+| >= 4 to < 6        |     5 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     4 |
+| >= 10 to < 12      |     3 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    13 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              31 |           17 |
+| No           | No                    | Yes                    |             311 |           90 |
+| No           | Yes                   | No                     |              80 |           25 |
+| Yes          | No                    | No                     |              18 |            9 |
+| Yes          | No                    | Yes                    |             143 |           75 |
+| Yes          | Yes                   | No                     |             191 |           61 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+------------------------------------------+------------------------------------------+------------------+----------------+
+|         Clock Signal         |               Enable Signal              |             Set/Reset Signal             | Slice Load Count | Bel Load Count |
++------------------------------+------------------------------------------+------------------------------------------+------------------+----------------+
+|  shake_0/dout_reg_i_1_n_0    |                                          | shake_0/dout_reg_i_2_n_0                 |                1 |              1 |
+|  shake_1/dout_reg_i_1__0_n_0 |                                          | shake_1/dout_reg_i_2__0_n_0              |                1 |              1 |
+|  shake_2/dout_reg_i_1__1_n_0 |                                          | shake_2/dout_reg_i_2__1_n_0              |                1 |              1 |
+|  shake_3/dout_reg_i_1__2_n_0 |                                          | shake_3/dout_reg_i_2__2_n_0              |                1 |              1 |
+|  clk_1M                      |                                          |                                          |                1 |              1 |
+|  clk_1M                      |                                          | mp3_inst/FSM_onehot_condition[5]_i_1_n_0 |                1 |              1 |
+|  clk_1M                      | mp3_inst/XDCS_i_1_n_0                    | mp3_inst/FSM_onehot_condition[5]_i_1_n_0 |                1 |              1 |
+|  clk_1M                      | mp3_inst/SI1_out                         |                                          |                1 |              1 |
+|  clk_1M                      | mp3_inst/XRSET_i_1_n_0                   | mp3_inst/FSM_onehot_condition[5]_i_1_n_0 |                1 |              1 |
+|  clk_1M                      | mp3_inst/XCS_i_1_n_0                     | mp3_inst/FSM_onehot_condition[5]_i_1_n_0 |                1 |              1 |
+|  clk_vga_BUFG                |                                          |                                          |                1 |              1 |
+|  clk_vga_BUFG                | vga_0/hs_i_1_n_0                         | rst_IBUF                                 |                1 |              1 |
+|  clk_vga_BUFG                | vga_0/vs_i_1_n_0                         | rst_IBUF                                 |                1 |              1 |
+|  clk_1M                      | mp3_inst/cmd_reg[31]_srl32_i_1_n_0       |                                          |                1 |              3 |
+|  clk_game_BUFG               | shake_3/state_reg[1][0]                  | rst_IBUF                                 |                2 |              4 |
+|  clk_game_BUFG               | shake_3/state_reg[1]_1[0]                | rst_IBUF                                 |                2 |              4 |
+|  clk_game_BUFG               | shake_3/state_reg[1]_3[0]                | rst_IBUF                                 |                3 |              4 |
+|  clk_game_BUFG               | shake_1/E[0]                             | rst_IBUF                                 |                3 |              4 |
+|  clk_1M                      | mp3_inst/condition                       | mp3_inst/FSM_onehot_condition[5]_i_1_n_0 |                3 |              5 |
+|  clk_game_BUFG               | shake_3/state_reg[1]_2[0]                | rst_IBUF                                 |                7 |              8 |
+|  clk_game_BUFG               | shake_3/state_reg[1]_0[0]                | rst_IBUF                                 |                7 |              8 |
+|  clk_game_BUFG               | shake_3/state_reg[1]_4[0]                | rst_IBUF                                 |                7 |              8 |
+|  clk_game_BUFG               | shake_2/E[0]                             | rst_IBUF                                 |                7 |              8 |
+|  clk_vga_BUFG                | vga_0/x0                                 | vga_0/x[9]_i_1_n_0                       |                3 |             10 |
+|  clk_vga_BUFG                |                                          | rst_IBUF                                 |                4 |             11 |
+|  clk_vga_BUFG                | vga_0/count_v[10]_i_1_n_0                | rst_IBUF                                 |                4 |             11 |
+|  clk_1M                      | mp3_inst/addr[0]_i_1_n_0                 | mp3_inst/FSM_onehot_condition[5]_i_1_n_0 |                3 |             12 |
+|  clk_IBUF_BUFG               | score_inst/nolabel_line45/seg[6]_i_1_n_0 | rst_IBUF                                 |               10 |             15 |
+|  clk_1M                      | mp3_inst/music_data[15]_i_1_n_0          |                                          |                7 |             16 |
+|  clk_game_BUFG               | shake_3/E[0]                             | rst_IBUF                                 |               13 |             16 |
+|  clk_vga_BUFG                | vga_0/y[9]_i_2_n_0                       | vga_0/y[9]_i_1_n_0                       |                5 |             20 |
+|  clk_IBUF_BUFG               |                                          |                                          |               15 |             29 |
+|  clk_1M                      | mp3_inst/num[31]_i_2_n_0                 | mp3_inst/num[31]_i_1_n_0                 |                9 |             32 |
+|  clk_1M                      | mp3_inst/cnt                             | mp3_inst/FSM_onehot_condition[5]_i_1_n_0 |               13 |             32 |
+|  clk_IBUF_BUFG               | score_inst/total_time0                   | rst_IBUF                                 |                8 |             32 |
+|  clk_IBUF_BUFG               | score_inst/total_time_10ns[0]_i_1_n_0    | rst_IBUF                                 |                8 |             32 |
+|  clk_IBUF_BUFG               |                                          | rst_IBUF                                 |               10 |             35 |
+|  clk_IBUF_BUFG               |                                          | mp3_inst/clk_mp3/clear                   |               16 |             64 |
+|  clk_game_BUFG               | p15                                      | rst_IBUF                                 |               14 |             64 |
+|  clk_game_BUFG               |                                          | rst_IBUF                                 |               36 |            132 |
+|  clk_rand_BUFG               |                                          | rst_IBUF                                 |               44 |            144 |
++------------------------------+------------------------------------------+------------------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov  9 16:38:48 2023
+# Process ID: 4992
+# Current directory: E:/NL/projects/homework/ex06/pcreg.runs/synth_1
+# Command line: vivado.exe -log pcreg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pcreg.tcl
+# Log file: E:/NL/projects/homework/ex06/pcreg.runs/synth_1/pcreg.vds
+# Journal file: E:/NL/projects/homework/ex06/pcreg.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source pcreg.tcl -notrace

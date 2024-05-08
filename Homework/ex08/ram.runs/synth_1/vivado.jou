@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 23 17:33:03 2023
+# Process ID: 6016
+# Current directory: E:/NL/projects/homework/ex08/ram.runs/synth_1
+# Command line: vivado.exe -log ram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ram.tcl
+# Log file: E:/NL/projects/homework/ex08/ram.runs/synth_1/ram.vds
+# Journal file: E:/NL/projects/homework/ex08/ram.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ram.tcl -notrace
